@@ -2,7 +2,9 @@ from flask import Flask,render_template, request
 from flask_mysqldb import MySQL
  
 app = Flask(__name__)
- 
+
+#Este codigo funciono con una instalación de XAMPP en windows. 
+#No funcionaba con localhost ni con la dirección de la máquina. Funciono con 127.0.0.1
 app.config['MYSQL_HOST'] = '127.0.0.1'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = ''
