@@ -102,6 +102,6 @@ def delete(id):
 
 
 # Para correr se deben usar los siguientes comandos:
-# export FLASK_APP=app
+# export FLASK_APP=main
 # export FLASK_ENV=development
 # flask run --host=0.0.0.0
